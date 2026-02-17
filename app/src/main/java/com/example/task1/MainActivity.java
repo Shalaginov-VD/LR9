@@ -1,5 +1,6 @@
 package com.example.task1;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -75,6 +76,30 @@ public class MainActivity extends AppCompatActivity {
                     filterDinner = true;
                 }
                 updateFilter();
+            }
+        });
+
+        cardSpaghetti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Spaghetti.class);
+                startActivity(intent);
+            }
+        });
+
+        cardSalad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Salad.class);
+                startActivity(intent);
+            }
+        });
+
+        cardPancakes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Pancakes.class);
+                startActivity(intent);
             }
         });
     }

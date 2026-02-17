@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Task1">
         <activity
+            android:name=".Pancakes"
+            android:exported="false" />
+        <activity
+            android:name=".Salad"
+            android:exported="false" />
+        <activity
+            android:name=".Spaghetti"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
