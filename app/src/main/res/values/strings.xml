@@ -1,53 +1,65 @@
 <resources>
-    <string name="app_name">Task1</string>
-    <string name="spaghetti_ingredients">Продукты:\n
-        1. Масло сливочное - 60 г\n
-        2. Лук репчатый, мелко нарезанный - 1 шт.\n
-        3. Чеснок раздавленный - 2 зубка\n
-        4. Копченая ветчина, нарезанная кубиками - 50 г\n
-        5. Говядина молотая - 500 г\n
-        6. Орегано нарезанная - 1 ст. л.\n
-        7. Томатная паста - 2 ст. л.\n
-        8. Помидоры, кусочками - 800 г\n
-        9. Соль, перец\n
-        10. Спагетти — 400 г\n
-        11. Сыр (желательно, Пармезан) тертый — 3 ст. л.</string>
-    <string name="spaghetti_recipe">Рецепт:\n
-        Растопите сливочное масло в толстостенной кастрюле на среднем огне. Добавьте лук и готовьте его 2-3 минуты. Добавьте чеснок. Готовьте на малом огне, помешивая, 5 минут. Сделайте большой огонь, добавьте ветчину, говяжий фарш и орегано. Готовьте 4-5 минут.\n
-        Добавьте томатную пасту, мякоть помидоров, посолите, поперчите. Накройте соус крышкой и тушите 1.5 часа, периодически помешивая. Снимите крышку и готовьте соус еще 1 час, помешивая время от времени.\n
-        Отварите спагетти в подсоленной воде до состояния «аль денте» (чтобы они оставались чуть недоваренными). Откиньте на дуршлаг и переложите обратно в кастрюлю, сохраняя спагетти теплыми.\n
-        Выложите соус Болоньезе на спагетти. Подавайте спагетти болоньезе с пармезаном.</string>
-    <string name="salad_ingredients">Продукты:\n
-        1. Куриное филе - 300 г\n
-        2. Яйца - 4 шт.\n
-        3. Сыр твердый - 200 г\n
-        4. Помидоры черри - 200 г\n
-        5. Сухарики - 40 г\n
-        6. Листья салата - 200 г\n
-        7. Соль, перец\n
-        8. Масло оливковое - 100 мл\n
-        9. Сок 0.5 лимона\n
-        10. Горчица - 2 ст. л.\n
-        11. Чеснок раздавленный - 2 зубка</string>
-    <string name="salad_recipe">Рецепт:\n
-        Куриную грудку отварить с добавлением соли. Яйца сварить вкрутую. Нарезать куриное филе и яйца. Сыр натереть на терке. Все ингредиенты заправки взбить блендером.\n
-        Выложить слоями на салатные листья:\n
-        - куриное мясо;\n
-        - сухарики;\n
-        - яйца;\n
-        - сыр;\n
-        - помидоры черри.\n
-        Всё полить приготовленным соусом и посыпать сверху свежемолотым перцем.</string>
-    <string name="pancakes_ingredients">Продукты:\n
-        1. Яйца - 3 шт.\n
-        2. Молоко (теплое) - 700 мл\n
-        3. Сахар - 1 ст. л.\n
-        4. Соль - 1 ч. л.\n
-        5. Мука - 7 ст. л. (с горкой)\n
-        6. Сода - 0.5 ч. л. (погасить уксусом)\n
-        7. Масло растительное - 2 ст. л.</string>
-    <string name="pancakes_recipe">Рецепт:\n
-        В миску разбить яйца, добавить теплое молоко, соль, сахар, растительное масло, соду, гашенную уксусом. Всё хорошо взбить венчиком или вилкой.\n
-        Муку просеять. Добавлять по одной столовой ложке. Хорошо всё взбивать, чтобы не было комков.\n
-        Разогреть сковороду. Печь блины на сухой раскаленной сковороде, смазать её только перед первым блином. Печь до золотистого цвета с одной стороны, а затем с другой.</string>
+    <string name="app_name" translatable="false">Task1</string>
+    <string name="textGroup" translatable="false">Т-423901-ИСТ</string>
+    <string name="textFIO" translatable="false">Виталий Шалагинов</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="italian">Italian</string>
+    <string name="serbian">Serbian</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="spaghetti_title">Spaghetti Bolognese</string>
+    <string name="spaghetti_ingredients">Ingredients:\n
+        1. Butter - 60 gm\n
+        2. Onion, finely chopped - 1 PCS\n
+        3. Crushed garlic - 2 cloves\n
+        4. Smoked ham, diced - 50 gm\n
+        5. Ground beef - 500 gm\n
+        6. Chopped oregano - 1 tbsp\n
+        7. Tomato paste - 2 tbsp\n
+        8. Tomatoes, diced - 800 gm\n
+        9. Salt, pepper\n
+        10. Spaghetti - 400 gm\n
+        11. Grated cheese (preferably Parmesan) - 3 tbsp</string>
+    <string name="spaghetti_recipe">Recipe:\n
+        Melt the butter in a heavy saucepan over medium heat. Add the onion and cook for 2-3 minutes. Add the garlic. Cook over low heat, stirring, for 5 minutes. Increase the heat to high, add the ham, ground beef, and oregano. Cook for 4-5 minutes.\n
+        Add the tomato paste, tomato pulp, salt, and pepper. Cover the sauce and simmer for 1.5 hours, stirring occasionally. Remove the lid and cook the sauce for another hour, stirring occasionally.\n
+        Cook the spaghetti in salted water until al dente (just undercooked). Drain in a colander and return to the pot, keeping the spaghetti warm.\n
+        Pour the Bolognese sauce over the spaghetti. Serve spaghetti bolognese with Parmesan.</string>
+    <string name="salad_title">Caesar Salad</string>
+    <string name="salad_ingredients">Ingredients:\n
+        1. Chicken fillet - 300 gm\n
+        2. Eggs - 4 PCS\n
+        3. Hard cheese - 200 gm\n
+        4. Cherry tomatoes - 200 gm\n
+        5. Croutons - 40 gm\n
+        6. Lettuce leaves - 200 gm\n
+        7. Salt, pepper\n
+        8. Olive oil - 100 ml\n
+        9. Juice of 0.5 lemon\n
+        10. Mustard - 2 tbsp\n
+        11. Crushed garlic - 2 cloves</string>
+    <string name="salad_recipe">Recipe:\n
+        Boil the chicken breast, adding salt. Hard-boil the eggs. Chop the chicken breast and eggs. Grate the cheese. Blend all dressing ingredients in a blender.\n
+        Arrange in layers on lettuce leaves:\n
+        - chicken;\n
+        - croutons;\n
+        - eggs;\n
+        - cheese;\n
+        - cherry tomatoes.\n
+        Pour the prepared sauce over everything and sprinkle with freshly ground pepper.</string>
+    <string name="pancakes_title">Сrepes</string>
+    <string name="pancakes_ingredients">Ingredients:\n
+        1. Eggs - 3 PCS\n
+        2. Milk (warm) - 700 ml\n
+        3. Sugar - 1 tbsp\n
+        4. Salt - 1 tsp\n
+        5. Flour - 7 tbsp (heaped)\n
+        6. Baking soda - 0.5 tsp (quench with vinegar)\n
+        7. Vegetable oil - 2 tbsp</string>
+    <string name="pancakes_recipe">Recipe:\n
+        Crack the eggs into a bowl, add warm milk, salt, sugar, vegetable oil, and baking soda mixed with vinegar. Beat well with a whisk or fork.\n
+        Sift the flour. Add one tablespoon at a time. Beat well to avoid lumps.\n
+        Preheat the frying pan. Cook the crepes in a dry, hot frying pan, greasing it only before the first crepes. Bake until golden brown on one side, then the other.</string>
 </resources>

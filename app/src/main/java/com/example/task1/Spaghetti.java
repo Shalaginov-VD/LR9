@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class Spaghetti extends AppCompatActivity {
 
-    private ImageButton btn_back;
+    private ImageButton btnBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +25,9 @@ public class Spaghetti extends AppCompatActivity {
             return insets;
         });
 
-        btn_back = findViewById(R.id.btn_back);
+        btnBack = findViewById(R.id.btn_back);
 
-        btn_back.setOnClickListener(new View.OnClickListener() {
+        btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();

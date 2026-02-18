@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="english">Inglese</string>
+    <string name="russian">Russo</string>
+    <string name="italian">Italiano</string>
+    <string name="serbian">Serbo</string>
+    <string name="breakfast">Colazione</string>
+    <string name="lunch">Pranzo</string>
+    <string name="dinner">Cena</string>
+    <string name="spaghetti_title">Spaghetti alla bolognese</string>
+    <string name="spaghetti_ingredients">Ingredienti:\n
+        1. Burro - 60 g\n
+        2. Cipolla tritata finemente - 1 pz.\n
+        3. Aglio schiacciato - 2 spicchi\n
+        4. Prosciutto affumicato a cubetti - 50 g\n
+        5. 500 g di carne macinata di manzo\n
+        6. 1 cucchiaio di origano tritato\n
+        7. 2 cucchiai di concentrato di pomodoro\n
+        8. 800 g di pomodori a cubetti\n
+        9. Sale e pepe\n
+        10. 400 g di spaghetti\n
+        11. 3 cucchiai di formaggio grattugiato (preferibilmente Parmigiano)</string>
+    <string name="spaghetti_recipe">Ricetta:\n
+        Sciogliere il burro in una casseruola capiente a fuoco medio. Aggiungere la cipolla e cuocere per 2-3 minuti. Aggiungere l\'aglio. Cuocere a fuoco basso, mescolando, per 5 minuti. Alzare la fiamma al massimo, aggiungere il prosciutto, la carne macinata e l\'origano. Cuocere per 4-5 minuti.\n
+        Aggiungere il concentrato di pomodoro, la polpa di pomodoro, sale e pepe. Coprire la salsa e cuocere a fuoco lento per 1 ora e mezza, mescolando di tanto in tanto. Togliere il coperchio e cuocere la salsa per un\'altra ora, mescolando di tanto in tanto.\n
+        Cuocere gli spaghetti in abbondante acqua salata, scolandoli al dente. Scolarli in uno scolapasta e rimetterli nella pentola, tenendoli al caldo.\n
+        Versare il ragù alla bolognese sugli spaghetti. Servire gli spaghetti alla bolognese con il Parmigiano.</string>
+    <string name="salad_title">Insalata Cesare</string>
+    <string name="salad_ingredients">Ingredienti:\n
+        1. Filetto di pollo - 300 g\n
+        2. Uova - 4 pezzi\n
+        3. Formaggio stagionato - 200 g\n
+        4. Pomodorini - 200 g\n
+        5. Crostini di pane - 40 g\n
+        6. Foglie di lattuga - 200 g\n
+        7. Sale, pepe\n
+        8. Olio d\'oliva - 100 ml\n
+        9. Succo di 0,5 limone\n
+        10. Senape - 2 cucchiai\n
+        11. Aglio schiacciato - 2 spicchi</string>
+    <string name="salad_recipe">Ricetta:\n
+        Bollire il petto di pollo, aggiungendo sale. Cuocere le uova sode. Tritare il petto di pollo e le uova. Grattugiare il formaggio. Frullare tutti gli ingredienti del condimento in un frullatore.\n
+        Disporre a strati sulle foglie di lattuga:\n
+        - pollo;\n
+        - crostini;\n
+        - uova;\n
+        - formaggio;\n
+        - pomodorini.\n
+        Versare la salsa preparata su tutto e cospargere con pepe macinato fresco.</string>
+    <string name="pancakes_title">Crepes</string>
+    <string name="pancakes_ingredients">Ingredienti:\n
+        1. Uova - 3 pezzi\n
+        2. Latte (tiepido) - 700 ml\n
+        3. Zucchero - 1 cucchiaio\n
+        4. Sale - 1 cucchiaino\n
+        5. Farina - 7 cucchiai (colmo)\n
+        6. Bicarbonato di sodio - 0,5 cucchiaino (da diluire con aceto)\n
+        7. Olio vegetale - 2 cucchiai</string>
+    <string name="pancakes_recipe">Ricetta:\n
+        Rompere le uova in una ciotola, aggiungere il latte caldo, il sale, lo zucchero, l\'olio vegetale e il bicarbonato di sodio mescolato con l\'aceto. Sbattere bene con una frusta o una forchetta.\n
+        Setacciare la farina. Aggiungere un cucchiaio alla volta. Sbattere bene per evitare grumi.\n
+        Preriscaldare la padella. Cuocere i crepes in una padella asciutta e calda, ungendola solo prima del primo crepes. Cuocere fino a doratura prima da un lato e poi dall\'altro.</string>
+</resources>

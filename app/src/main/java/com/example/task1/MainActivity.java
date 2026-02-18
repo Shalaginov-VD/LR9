@@ -1,10 +1,13 @@
 package com.example.task1;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,9 +17,11 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-
-    private Button btnBreakfast, btnLunch, btnDinner;
+    Context context;
+    Resources resources;
+    private Button btnEng, btnRus, btnIta, btnSrp, btnBreakfast, btnLunch, btnDinner;
     private CardView cardSpaghetti, cardSalad, cardPancakes;
+    private TextView spaghetti, salad, pancakes;
     private boolean filterBreakfast, filterLunch, filterDinner = false;
 
     @Override
@@ -30,12 +35,94 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        btnEng = findViewById(R.id.btn_english);
+        btnRus = findViewById(R.id.btn_russian);
+        btnIta = findViewById(R.id.btn_italian);
+        btnSrp = findViewById(R.id.btn_serbian);
         btnBreakfast = findViewById(R.id.btn_breakfast);
         btnLunch = findViewById(R.id.btn_lunch);
         btnDinner = findViewById(R.id.btn_dinner);
         cardSpaghetti = findViewById(R.id.card_dish1);
         cardSalad = findViewById(R.id.card_dish2);
         cardPancakes = findViewById(R.id.card_dish3);
+        spaghetti = findViewById(R.id.spaghetti);
+        salad = findViewById(R.id.salad);
+        pancakes = findViewById(R.id.pancakes);
+
+        btnEng.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                context = LocaleHelper.setLocale(MainActivity.this, "en");
+                resources = context.getResources();
+                btnEng.setText(resources.getString(R.string.english));
+                btnRus.setText(resources.getString(R.string.russian));
+                btnIta.setText(resources.getString(R.string.italian));
+                btnSrp.setText(resources.getString(R.string.serbian));
+                btnBreakfast.setText(resources.getString(R.string.breakfast));
+                btnLunch.setText(resources.getString(R.string.lunch));
+                btnDinner.setText(resources.getString(R.string.dinner));
+                spaghetti.setText(resources.getString(R.string.spaghetti_title));
+                salad.setText(resources.getString(R.string.salad_title));
+                pancakes.setText(resources.getString(R.string.pancakes_title));
+            }
+        });
+
+        btnRus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                context = LocaleHelper.setLocale(MainActivity.this, "ru");
+                resources = context.getResources();
+                btnEng.setText(resources.getString(R.string.english));
+                btnRus.setText(resources.getString(R.string.russian));
+                btnIta.setText(resources.getString(R.string.italian));
+                btnSrp.setText(resources.getString(R.string.serbian));
+                btnBreakfast.setText(resources.getString(R.string.breakfast));
+                btnBreakfast.setText(resources.getString(R.string.breakfast));
+                btnLunch.setText(resources.getString(R.string.lunch));
+                btnDinner.setText(resources.getString(R.string.dinner));
+                spaghetti.setText(resources.getString(R.string.spaghetti_title));
+                salad.setText(resources.getString(R.string.salad_title));
+                pancakes.setText(resources.getString(R.string.pancakes_title));
+            }
+        });
+
+        btnIta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                context = LocaleHelper.setLocale(MainActivity.this, "it");
+                resources = context.getResources();
+                btnEng.setText(resources.getString(R.string.english));
+                btnRus.setText(resources.getString(R.string.russian));
+                btnIta.setText(resources.getString(R.string.italian));
+                btnSrp.setText(resources.getString(R.string.serbian));
+                btnBreakfast.setText(resources.getString(R.string.breakfast));
+                btnBreakfast.setText(resources.getString(R.string.breakfast));
+                btnLunch.setText(resources.getString(R.string.lunch));
+                btnDinner.setText(resources.getString(R.string.dinner));
+                spaghetti.setText(resources.getString(R.string.spaghetti_title));
+                salad.setText(resources.getString(R.string.salad_title));
+                pancakes.setText(resources.getString(R.string.pancakes_title));
+            }
+        });
+
+        btnSrp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                context = LocaleHelper.setLocale(MainActivity.this, "sr");
+                resources = context.getResources();
+                btnEng.setText(resources.getString(R.string.english));
+                btnRus.setText(resources.getString(R.string.russian));
+                btnIta.setText(resources.getString(R.string.italian));
+                btnSrp.setText(resources.getString(R.string.serbian));
+                btnBreakfast.setText(resources.getString(R.string.breakfast));
+                btnBreakfast.setText(resources.getString(R.string.breakfast));
+                btnLunch.setText(resources.getString(R.string.lunch));
+                btnDinner.setText(resources.getString(R.string.dinner));
+                spaghetti.setText(resources.getString(R.string.spaghetti_title));
+                salad.setText(resources.getString(R.string.salad_title));
+                pancakes.setText(resources.getString(R.string.pancakes_title));
+            }
+        });
 
         btnBreakfast.setOnClickListener(new View.OnClickListener() {
             @Override
